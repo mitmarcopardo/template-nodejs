@@ -3,7 +3,6 @@ import express from "express";
 import cors from 'cors';
 
 const app = express();
-const cors = require('cors')
 const port = process.env.PORT ?? 3001;
 
 app.use(express.static('public'))
