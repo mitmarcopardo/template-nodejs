@@ -1,5 +1,7 @@
-const dal = require('./dal_local.js' );
-const express = require('express');
+import * as dal from './dal_local.js' 
+import express from "express";
+import cors from 'cors';
+
 const app = express();
 const cors = require('cors')
 const port = process.env.PORT ?? 3001;
