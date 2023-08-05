@@ -1,4 +1,4 @@
-import * as dal from './dal_local.js' 
+const dal = require('./dal_local.js' );
 const express = require('express');
 const app = express();
 const cors = require('cors')
